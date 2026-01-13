@@ -1,22 +1,105 @@
 # 💸 Expensync – Expense Tracker Application
 
-Expensync is a full-stack Expense Tracker application designed to help users record, manage, and monitor their daily expenses in a simple and efficient way. The project follows a clear frontend–backend separation, making it easy to understand, maintain, and scale. It provides a clean user interface for entering expenses and a REST-based backend to handle data operations, making it suitable for real-world use and further enhancements.
+Expensync is a full-stack Expense Tracker application that helps users record, manage, and monitor their daily expenses efficiently. The project is designed using a clear frontend–backend separation, following good full-stack development practices and making the application easy to maintain and extend.
 
-The frontend of the application is built using React.js along with standard web technologies such as HTML, CSS, and JavaScript to deliver a responsive and user-friendly experience. The backend is developed using Node.js and Express.js, exposing RESTful APIs that handle expense-related operations. The project structure is organized to keep frontend and backend concerns separate, following good full-stack development practices.
+---
 
-This application allows users to add and manage expenses, organize them efficiently, and view their expense history. It is configured for local development and also prepared for deployment using Vercel. The project serves as a strong demonstration of full-stack development skills, including API integration, project structuring, and environment-based setup.
+## 📌 Project Overview
 
-Project Structure:
+Managing daily expenses is essential for personal financial awareness. Expensync provides a simple and user-friendly interface to track expenses, while a REST-based backend handles data operations. This project demonstrates practical implementation of frontend–backend integration using modern web technologies.
+
+---
+
+## 🚀 Features
+
+- Add and manage daily expenses  
+- View expense history  
+- Clean and responsive user interface  
+- RESTful API integration  
+- Modular frontend and backend architecture  
+- Ready for deployment  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
+
+**Backend**
+- Node.js  
+- Express.js  
+- REST APIs  
+
+---
+
+## 📁 Project Structure
+```
 Expensync/
-Backend/ – Contains the server-side code built with Node.js and Express.js, including API logic and deployment configuration.
-Frontend/ – Contains the React-based client-side application with UI components and application logic.
-README.md – Project documentation.
+│
+├── Backend/
+│ ├── index.js
+│ ├── package.json
+│ ├── package-lock.json
+│ ├── vercel.json
+│ └── .gitignore
+│
+├── Frontend/
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ └── package-lock.json
+│
+├── README.md
+└── .gitignore
+```
 
-To run the project locally, first clone the repository using `git clone https://github.com/Trupthi-J/Expensync.git` and navigate into the project directory. For the backend, move into the Backend folder, install dependencies using `npm install`, and start the server using `npm start`. For the frontend, navigate into the Frontend folder, install dependencies using `npm install`, and start the application using `npm start`. Ensure the backend server is running before accessing the frontend so that API communication works correctly.
+---
 
-The backend exposes REST APIs that the frontend consumes to perform expense-related operations. The application is ready for deployment, with backend configuration included for Vercel, and the frontend can also be deployed on platforms such as Vercel or Netlify.
+## ⚙️ Installation & Setup
 
-Future improvements for this project include adding user authentication, implementing analytics and charts for expense visualization, integrating a database for persistent storage, and enabling export of expense reports. This project is developed for learning and demonstration purposes and reflects practical full-stack development skills.
+### 1️⃣ Clone the Repository
+```
+git clone https://github.com/Trupthi-J/Expensync.git
+cd Expensync
+```
 
-Author: Trupthi J  
-GitHub: https://github.com/Trupthi-J  
+2️⃣ Backend Setup
+```
+cd Backend
+npm install
+npm start
+```
+
+3️⃣ Frontend Setup
+```
+cd ../Frontend
+npm install
+npm start
+```
+The frontend will run on http://localhost:3000.
+Ensure the backend server is running before accessing the frontend.
+
+## 🔗 API Integration
+The frontend communicates with the backend through REST APIs to perform expense-related operations such as adding and fetching expense data.
+
+## 🌐 Deployment
+Backend is configured for deployment using Vercel
+Frontend can be deployed on Vercel or Netlify
+
+## 🔮 Future Enhancements
+User authentication (Login & Signup)
+Expense analytics and charts
+Database integration for persistent storage
+Export expenses as PDF or Excel reports
+
+## 👩‍💻 Author
+Trupthi J
+GitHub: https://github.com/Trupthi-J
+
+## 📄 License
+This project is developed for learning and educational purposes.
+
